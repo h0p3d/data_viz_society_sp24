@@ -1,0 +1,328 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Vis & Society Assignment 3</title>
+	<link rel="stylesheet" href="https://vis-society.github.io/assignments/report.css" />
+</head>
+
+<body>
+	<header>
+		<h1>
+			<small>Assignment 3</small>
+			Visualization Design
+		</h1>
+
+		<p>
+			<strong>Hope Dargan</strong> — <em>hoped@mit.edu</em>
+		</p>
+	</header>
+
+	<main>
+		<section>
+			<h2>Phase One: Sketching Visualizations</h2>
+
+		<h3>Starting Question</h3>
+		"How have population numbers and age demographics in the US changed between 1900 and 2000?"
+		<br><br>
+		From looking at the numbers and knowing a bit about US history, I
+		anticipated that the data would show both that the US population grew
+		significantly between 1900 and 2000 and that the median life
+		expectancy increased significantly due to lowering infant mortality rates
+		and longer-average life expectancies due to advancements in medical
+		technology among other things. I wanted this visualization to tell
+		that story in a way that humanized or emphasized this dramatic change,
+		but I was torn between whether to focus on one or both narratives.
+		<br><br>
+		I chose to ignore the gendered aspect of the data because I do not
+		think that gender is a relevant part of this narrative.
+		Also, there are problems inherent to treating
+		gender like a binary classification instead of as a complex biological,
+		social, and psychological multi-dimensional spectrum. However, age
+		also has a lot of complex biological, social, and ethical meanings
+		(ie., how people physically mature at different
+		rates and experience different biological stages of life at different
+		ages, when is a person considered a child vs. an adult,
+		does life begin at birth, etc.)
+
+      <figure>
+				<img src="prototype1.jpg" width="70%" alt="First prototype sketch" />
+				<figcaption>
+					An interactive graphic where users could draw their best guess
+					for the line of population numbers from the 2000 census, given
+					the 1900 census as a baseline.
+				</figcaption>
+			</figure>
+
+			<p>
+				Design Rationale for Sketch 1:
+			</p>
+
+			<ul>
+				<li>The idea for this visualization came from the similar graphic
+					we saw about income and college attendance rates in lecture
+					on Monday. I liked the idea of making the data more memorable
+					by having people draw out their guess before getting the answer.
+					The thick black line was my actual guess, I was surprised that
+					the actual numbers for the 2000 census dipped and then increased, but this makes
+					sense due to the baby boomer generation. I think the
+					surprise factor is nice, but I think I also agree that because
+					people don't expect visualizations to be interactive / may
+					not want to put in the effort to explore the visualization
+					that presenting the information up front or in a more "scrolly-telling"
+					style might be more effective.
+				</li>
+				<li>Showing the y-axis in terms of millions instead of thousands
+					of thousands as shown in the raw data made the scale more
+					easily interpretable in my opinion.
+				</li>
+				<li>Note I made this sketch before I saw the phase 2 restriction that the
+					visualiation had to be static.
+				</li>
+				<li>Another limitation is that this is showing the data as if it were
+					continuous when it is really discrete. A bar chart might show
+					this more transparently.
+				</li>
+				<li>The colors for this chart don't really come through (I
+					only had a four color pen), but I wanted the other guesses
+					to be grey, your guess to be black, and the actual numbers
+					to be in a thick blue line. I think using different neutral
+					colors to distinguish the different data points will help
+					highlight the different sources to the user.
+				</li>
+				<li>
+					After showing this prototype to someone with no context for
+					the assignment, the person suggested moving the instructions
+					from a tooltip to above the graphic, moving the legend to
+					the left hand side or the bottom, and commented that they
+					mainly got how close the guess was to the actual from the
+					visualization, and didn't understand why the 1900 data was
+					present. So intent was not achieved.
+				</li>
+			</ul>
+
+      <figure>
+				<img src="prototype2.jpg" width="70%" alt="Second Prototype sketch" />
+				<figcaption>
+				A bar chart showing the US population in millions for different age
+				groups in 1900 and 2000. Instead of a typical bar chart, I sought
+				to humanize the data by (poorly) drawing figures that appeared
+				as different aged people.
+				</figcaption>
+			</figure>
+
+			<p>
+				Design Rationale for Sketch 2:
+			</p>
+
+			<ul>
+				<li>I wanted to create a more memorable visualization without
+					requiring as much effort from the user. The conversations
+					about chart junk
+					in lecture made me wonder if adding embellishment like
+					having babies represent the height of the bar chart for
+					age 0, children for age 5, 10, 15,
+					adults for 20-50, and an elderly person for 50+ might
+					emphasize the human effect that decreasing infant mortality
+					and increasing life expectancy had. I even thought it might
+					be cool to embellish the figures to have period dress or be
+					more diverse in terms of hairstyle, gender, and race, or to
+					dress like the decade that group of people was born in but
+					I think that might be more distracting and complicated.
+				</li>
+				<li>The title "A Snapshot of US Population by age 1900 vs 2000" was
+					supposed to evoke emotion of looking at two pictures in the
+					same place side by side a hundred years apart.
+				</li>
+				<li>Adding the decade each cohort was born in was also meant as
+					a neat reverse timeline. I think it both acts as an explainer
+					(the bump in the middle due to the baby boomer generation
+					becomes instantly recognizable by the year) and as a
+					humanizing effect (you start to wonder wow
+					someone who was 40 in 1900 was born during the US Civil War,
+					I wonder what that was like) and it makes the history element
+					more tangible (like wow many people in 1900 still
+					remembered what it was like to live in a US where it was
+					legal to own people.)
+				</li>
+				<li>I think the limitation here is that showing the raw numbers
+					draws your attention to the numbers and the population
+					growth and the history while perhaps de-emphasizing the
+					other narrative of decreasing infant mortality and
+					increased longevity. Another change I might make in hindsight
+					is flipping the x and y axis so that the people are side-by-side,
+					not standing on top of each other.
+				</li>
+				<li>After showing this prototype to someone with no context for
+					the assignment: the person was confused by the description
+					on the left (I accidentally flipped the colors on this chart)
+					and didn't really get that the data was coming from different
+					censuses based on the phrasing. The presence of both decades
+					and age was similarly confusing, and they recommended I go
+					with one or the other (I'm thinking maybe some annotations
+					might make this more clear because including decade of
+					people born in x decade alive in y census year is a bit
+					confusing.)
+				 </li>
+			</ul>
+
+      <figure>
+				<img src="prototype3.jpg" width="70%" alt="Third Prototype sketch" />
+				<figcaption>
+				This is a cleaner and simpler bar chart that is attempting to
+				focus on presenting the change in age demographics by displaying
+				percentage instead of population numbers.
+				</figcaption>
+			</figure>
+
+			<p>
+				Design Rationale for Sketch 3:
+			</p>
+
+			<ul>
+				<li>Sorry for the bad bar chart drawing! With this prototype I
+					wanted to explore what would happen if I tried to take the
+					change in population numbers out of the equation so the
+					viewer could compare the age distributions more easily.
+					I think this primarily has the effect of de-emphasizing
+					the population numbers (less transparency?) while also making
+					the difference in age distribution clearer.
+				</li>
+				<li>After showing this prototype to someone with no context for
+					the assignment, the person initially thought it was showing
+					numbers not percentages (but they had also seen the previous
+					two prototypes first so may have been primed to look for
+					numbers), and didn't get the main observation I was trying
+					to convey of changing infant mortality / life expectancy. </li>
+				<li>I think this chart would be better with 10 bins instead of
+					20, with the bar charts overlapping to allow for better direct
+					comparison, and with annotations at the key points indicating
+					change in infant mortality, median life expectancy, and
+					percent of population above 60.
+				</li>
+			</ul>
+
+      <h3>Reflection</h3>
+
+      <p>
+        I know this wasn't part of the assignment per se, but I think my main
+		reflection is on the stark contrast between my intent for each prototype
+		visualization and the actual confusion / other feedback that a
+		non-technical user had. I think partly this is due to the rough nature
+		of prototype sketches that the eye immediately jumps to what is unclear
+		or what is not designed well instead of the data itself. But also, I
+		realized that in my first couple of prototypes I was trying to communicate
+		a lot of information and that without the additional context of annotations
+		or explanatory text that the message I was trying to convey was lost.
+		While the first couple of prototypes may have been more "creative", I think
+		I will ultimately make something closer to the third prototype even
+		though it is a bit "boring" and narrower in scope because
+		I think that with simplicity there comes a clarity of information that.
+		Before this, I did not fully appreciate that there is something worse than
+		a visualization that fails to communicate in a memorable or impactful
+		way- it's a visualization that fails to communicate at all.
+      </p>
+
+		</section>
+
+		<section>
+			<h2>Phase Two: Final Design</h2>
+
+			<figure>
+				<img src="final.png" width="95%" alt="Final static image" />
+				<figcaption>
+				Bar chart and 65 and older data calculated from provided <a href="https://vis-society.github.io/assignments/census2000.csv">US census data</a>.
+				Infant mortality rate data taken from <a href="https://www.statista.com/statistics/1041693/united-states-all-time-child-mortality-rate/">this Statista article.</a>
+				Life expectancy taken from this <a href="https://www2.census.gov/programs-surveys/decennial/2000/phc/phc-t-09/tab07.pdf">census report</a>.
+				Figure generated in Tableau, modified in Powerpoint, figure icons taken from <a href="https://thenounproject.com/icon/baby-1702914/">thenounproject.com</a>.
+				</figcaption>
+			</figure>
+		</section>
+
+		<section>
+			<h2>Design Process & Design Decisions</h2>
+
+			<p>
+			When I initially looked at the data on Monday, I had no idea how I
+			was going to approach this assignment. After all, US Census data seems
+			<i>so boring</i>. However, I think the lectures the past couple of
+			weeks on chart annotations, storytelling, affect, and creative
+			interactions helped me frame my design choices around a story or message
+			I wanted to convey. In the previous data exploration assignment,
+			I tried to discover a story in the data and explore how
+			the readings did or did not apply to Boston specific data. This
+			assignment, because I drew the prototypes before deeply analyzing
+			the data, I had to start with a story in mind about population
+			growth and life expectancy improvements, which led me to think and
+			experiment with various techniques that I had seen in lecture or
+			articles that could convey this story and make it memorable.
+
+      		</p>
+			<p>
+			Ultimately, I decided to answer a question about the difference in
+			age demographics in the US in 1900 and 2000. I chose to use a bar
+			chart because the data had discrete values. I originally had 10
+			bars instead of 20, but I discovered that the child mortality and
+			aging population statistics I wanted to use fell at 5 years and 65 years
+			so I split the data back into 20 bins, even though this made the
+			x-axis labels a bit tight and cluttered. The 5 year bins also provide a more
+			detailed view of the varying curve of the 2000 data and the normal
+			distribution shape of the 1900 data. In terms of color, I used orange
+			for 1900 as a sort of "warning color" because of the high infant
+			mortality and lower life expectancy, and blue for 2000 provided a
+			clear contrast. In terms of axes, I wanted to provide clear and easy
+			to read interpretations of the data, hence the color legend at the
+			top, the brief y-axis description, and age bins clearly defined so
+			their values are clear. Because the x axis was so cluttered, I added
+			the icons to make it easy to see at a glance what it was trying to
+			convey. Finally, in order to make sure my message / story was clearly
+			conveyed, I flagged points of interest I wanted the viewer to
+			notice with annotations that looked like flags so that the viewer
+			could interpret the chart within the relevant context I was aiming
+			for.
+
+			</p>
+
+
+      <h3>Reflection</h3>
+
+      <p>
+		Phase one definitely narrowed my scope for this assignment and allowed
+		me to focus my designs towards conveying a specific message. I felt like
+		being primed with examples of engaging visualizations in class and
+		thinking of what my prototypes could look like in the back of my mind
+		for a few days before I even drew them really helped my creative
+		process, and I definitely agree that drawing it on paper helped me avoid
+		being confined in terms of technological limitations / default design
+		choices. Doing the informal user feedback session on my sketches allowed
+		me to iterate quickly and focus on prototype 3, as I realized that
+		trying to convey both growth and demographics might overcomplicate
+		the narrative. The feedback session also confirmed the need for annotations
+		to clearly convey my narrative, as it became clear that raw numbers
+		have many interpretations and not everyone immediately jumps to the
+		historical context of the data. I also added the pictoral elements of
+		prototype 2 to humanize the data a bit. While I was interested in the
+		Baby Boomer bump, I ultimately left out the population growth
+		narrative I explored in prototype 1 and 2 to avoid cluttering the
+		visualization with too many annotations.
+	  </p>
+
+
+	<h3>Meta-Reflection</h3>
+	<p>
+        I think the past two assignments have been valuable practical learning
+		opportunities, but they feel like two incomplete halves of a larger
+		data visualization design process that I'm starting to get a feel for.
+		I want to start with data exploration, and once I understand the data
+		create a story around it, create visualizations that convey that story
+		and then iterate on those designs based on user feedback. However,
+		implementing the exploration and story building (and seeking my own user feedback)
+		separately helped me understand why it's not as satisfying to have
+		one without the other. I'm afraid that in this assignment, because I was
+		so pre-occupied with my pre-conceived narrative, that I lost out on
+		other insights or other stories the data could have told. It would be
+		interesting to see how my peers interpreted the same data.
+      </p>
+		</section>
+	</main>
+</body>
+</html>
