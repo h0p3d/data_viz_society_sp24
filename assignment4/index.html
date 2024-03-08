@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en"><script type="text/javascript" id="__gaOptOutExtension">window["_gaUserPrefs"] = { ioo : function() { return true; } }</script><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Vis &amp; Society Assignment 3</title>
+	<link rel="stylesheet" href="index_files/report.css">
+</head>
+
+<body>
+	<header>
+		<h1>
+			<small>Assignment 4</small>
+			Persuasive or Deceptive Visualization?
+		</h1>
+
+		<p>
+			<strong>Hope Dargan</strong> — <em>hoped@mit.edu</em>
+		</p>
+	</header>
+
+	<main>
+    <h2>Proposition: Incidents of police misconduct in NYC have been
+		increasing over time and disproportionately affect people of color.
+	</h2>
+
+		<section>
+      <h3>FOR the Proposition</h3>
+
+      <figure>
+				<img src="misconduct_3.png" alt="An infographic displaying
+				increasing police misconduct reports">
+				<figcaption>
+					Dataset includes the results of all civilian complaints
+					filed against active New York City police officers from
+					1986-2020, results from 2020 excluded due to
+					incomplete data. Source: <a href="https://www.propublica.org/datastore/dataset/civilian-complaints-against-new-york-city-police-officers">ProPublica 2020</a>
+				</figcaption>
+			</figure>
+
+			<p>
+				Design Decisions and Rationale:
+			</p>
+
+			<ul>
+				<li>I chose to display the raw number of reports per year.
+					The numbers are increasing likely because not as many 2020 active police officers
+					were working in the early 2000s, which is highly deceptive (-2).
+					Even if the caption mentions active police officers, and
+					cites the source of the data, displaying the data by year
+				    is still highly deceptive because most readers won't investigate further.
+				</li>
+				<li>I chose to display the reports by race in
+					decreasing order and included many categories (while not
+					including null, other, refused, and Native American),
+					included different types of allegations, attempted to use
+					a neutral color scheme and stretched the
+					x-axis to make it seem like my intent was informative
+					rather than persuasive. (-1)
+				</li>
+				<li>I obscured the outcome of the complaints and used terms
+					like reports and misconduct in the titles to imply that
+				    allegations had been substantiated. While I think filing
+					a complaint is somewhat synonymous with filing a report in
+					some contexts, it is still misleading (-1).
+				</li>
+			</ul>
+    </section>
+
+    <section>
+      <h3>AGAINST the Proposition</h3>
+
+      <figure>
+				<img src="false_complaints_3.png" alt="">
+				<figcaption>
+					Dataset includes the results of all civilian complaints
+					filed against active New York City police officers from
+					1986-2020, results from 2019-2020 excluded due to
+					incomplete data. Source: <a href="https://www.propublica.org/datastore/dataset/civilian-complaints-against-new-york-city-police-officers">ProPublica 2020</a>
+				</figcaption>
+			</figure>
+
+			<p>
+				Design Decisions and Rationale:
+			</p>
+
+			<ul>
+				<li>
+					In this case, focusing on the number of unvalidated reports
+					per year is highly deceptive, as it makes it seem like the
+					number of false reprts has dramatically increased since the
+					early 2000s. Separating the three possible outcomes (exonerated,
+					unsubstantiated, and substantiated) into two binary categories
+					and omitting how many unsubstantiated complaints are caused
+					by lack of police cooperation is highly deceptive (-2)
+				</li>
+				<li>I left out annotations because I wanted to persuade the reader
+					by letting them make the observations on their own that while
+					white officers had far more allegations, they were more likely
+					to be found innocent compared to black officers (while
+					ommitting mentions of racism at play in both the allegations
+					 and their outcomes) is deceptive. (-1)
+				</li>
+				<li>Again, I used a neutral color palette and a variety of chart
+					types to attempt to obscure the persuasive intent of the graphics (-1).
+				</li>
+			</ul>
+    </section>
+
+    <section>
+      <h2>Final Reflection</h2>
+
+      <p>Creating deceptive visualizations was far harder than I thought it would be.
+		I went through several iterations of graphics, starting with very clearly
+		one-sided visuals that I attempted to tone down by playing with the
+		colors, axes and removing the annotations (see early prototypes below).
+<br><br>
+		I was surprised that both including and ommitting complaint outcome data
+		felt deceptive because of the bias within the data itself. According
+		to the ProPublica description, reports
+		were often unsubstantiated because of police departments were unwilling
+		to provide evidence such as body cam footage. Additionally, current
+		laws give police broad discretion, especially as it applies to use of force
+		which contributes towards why so few incidents are substantiated.
+		Finally, I knew the data was biased towards increasing numbers of
+		reports over time because it only included active police officers in
+		2020. Because data was not available for all reports over the
+		time period, such as reports that led to police resigning, quitting, or
+		being tried for crimes which would make them not active, the entire
+		framing of the proposition itself was biased. Without the full context
+		for the data it is hard to imagine readers being able to detect all
+		forms of deception. It is also quite easy to imagine visual designers
+		unintentionally creating deceptive visualizations by
+		failing to account for all possible forms of bias within the data.
+<br><br>
+		Given that I cannot erase the bias from incomplete data that is collected
+		within the historically (and current) racist context of policing, I don't think it's possible
+		to create a purely neutral visualization. Certainly more ethical choices
+		could be made that convey the limitations of the data more transparently.
+		Perhaps clearly communicating the intent of the visualization as
+		shown below could in some ways make the bias more transparent, although
+		this likely makes the visualizations far less persuasive.
+	  </p>
+
+
+	  Example early graphic iterations:
+	  <img src="misconduct.png" alt="">
+	  <img src="false_complaints.png" alt="">
+
+    </section>
+	</main>
+
+
+</body></html>
